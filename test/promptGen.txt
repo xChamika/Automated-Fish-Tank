@@ -1,0 +1,32 @@
+Genarate a prompt for following scenario. I will be using gemini. Optimize for gemini.
+
+I want to build a automated system for fish tank. I will be using platformio for the project.
+
+The board I'm using esp32.
+
+I will be using following sensors and components.
+JSN-SR04 - water level monitoring
+DS18B20 (1-wire digital) - for temperature monitoring
+Servo motor - automatic feeding
+16*4 I2C lcd display.
+SP0001 buzzer
+Square push button
+
+I want to get the sensor data to blynk platform.
+
+I need full guide to circuit wiring with corresponding pins.
+I need the full guide to platformio. 
+I need the full guide to blynk setup.
+
+The automated system should fulfill following
+It should monitor temperature and waterlevel.
+The buzzer should beep when the water level is low or high and the temperature is low or high.
+It should also notify the the user via blynk.
+
+It should feed using the servo motor.
+The feeding time should be able to chnage according to the user.
+A manual feed override should be there in blynk platform and manual push button.
+
+The display should display the water level and water temperature.
+The threshold values of water level and temperature should be able to chnage by the user.
+
